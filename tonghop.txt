@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 1 - English Learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+
+        /* Sử dụng mã màu xanh dương #2f63ff từ đề */
+        header {
+            background-color: #2f63ff; 
+            color: white;
+            display: flex;
+            padding: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo svg {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin: 0;
+        }
+
+        /* Sử dụng mã màu xanh lơ #2fcbff từ đề */
+        .nav-container {
+            display: flex;
+            background-color: #2fcbff;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .nav-item {
+            padding: 14px 20px;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: black; 
+        }
+
+        /* Hover dùng màu vàng #ffe700 */
+        .nav-item:hover {
+            background-color: #ffe700;
+        }
+
+        article {
+            padding: 30px;
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .course-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2f63ff;
+        }
+
+        /* CSS tùy biến riêng cho thẻ blockquote để nổi bật bài viết */
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid #2f63ff; /* Viền xanh dương chủ đạo */
+            padding-left: 20px;
+            margin: 25px 0;
+            color: #555;
+            font-size: 18px;
+        }
+
+        /* CSS cho thẻ address để định dạng thông tin liên hệ chuyên nghiệp */
+        address {
+            font-style: normal;
+            margin-top: 40px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+            color: #444;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="none"></circle>
+                <text x="50%" y="60%" text-anchor="middle" font-size="24px" font-weight="bold" fill="white">EL</text>
+            </svg>
+        </div>
+        <h1>English Learning</h1>
+    </header>
+
+    <div class="nav-container">
+        <div class="nav-item"><a href="#">Trang chủ</a></div>
+        <div class="nav-item"><a href="#">Khóa học</a></div>
+        <div class="nav-item"><a href="#">Tài liệu</a></div>
+        <div class="nav-item"><a href="#">Liên hệ</a></div>
+    </div>
+
+    <article>
+        <h2>Khóa học Tiếng anh giao tiếp đột phá 2026</h2>
+        <img src="https://picsum.photos/id/20/800/300" alt="Lớp học tiếng anh" class="course-image">
+
+        <p>Bạn đang tìm kiếm một phương pháp học tập hiệu quả? Khóa học này được thiết kế để giúp bạn <strong>làm chủ khả năng giao tiếp</strong> chỉ trong vòng 3 tháng.</p>
+        
+        <blockquote>
+            "Khóa học này đã thay đổi hoàn toàn tư duy học tiếng Anh của tôi, giúp tôi tự tin trao đổi công việc trực tiếp với đồng nghiệp nước ngoài chỉ sau một thời gian ngắn." 
+            <br><strong>- Nguyễn Văn A (Học viên xuất sắc)</strong>
+        </blockquote>
+
+        <p><strong>Lợi ích khi tham gia:</strong></p>
+        <ul>
+            <li>Luyện phát âm chuẩn cùng giáo viên bản ngữ.</li>
+            <li>Môi trường thực hành <strong>100% tiếng Anh</strong>.</li>
+            <li>Giáo trình hiện đại, sát với thực tế công việc.</li>
+        </ul>
+        <p>Đừng bỏ lỡ cơ hội để nâng tầm sự nghiệp của bạn ngay hôm nay!</p>
+
+        <address>
+            <strong>Trung tâm Anh ngữ English Learning</strong><br>
+            Địa chỉ: Tòa nhà A1, Đại học Kinh tế Quốc dân, số 207 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội<br>
+            Hotline: 0123 456 789 | Email: contact@englishlearning.edu.vn
+        </address>
+    </article>
+</body>
+</html>
+
+
+/(* Câu 2 - Layout *)
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 2 - Layout</title>
+    <style>
+        /* Màu nền vàng #ffe700 */
+        .item {
+            background-color: #ffe700;
+            width: 300px;
+            height: 150px;
+            border: 1px solid black;
+            margin: 15px;
+            display: inline-block; /* Giúp dễ nhìn hơn khi có 6 thẻ */
+        }
+
+        /* Màu nền xanh lá #00e56b */
+        .advert {
+            width: 100%;
+            height: 200px;
+            border: 2px solid red;
+            background-color: #00e56b;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+
+    <div class="advert"></div>
+    
+</body>
+</html>
+
+/*Cau3*/ while
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 3 - Chuỗi JSON</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .courseList {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .course {
+            width: 280px;
+            border: 2px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: whitesmoke;
+        }
+
+        .course img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách khóa học Tiếng Anh (Từ JSON)</h1>
+    <div id="course-list" class="courseList"></div>
+
+    <script>
+        // Chuỗi JSON chứa 6 bài giới thiệu và có chèn ảnh
+        let jsonData = `[
+            {
+                "tenKhoaHoc": "Tiếng Anh Giao Tiếp",
+                "moTa": "Khóa học luyện giao tiếp cơ bản",
+                "hocPhi": "2.000.000 VNĐ",
+                "thoiGianKhaiGiang": "01/06/2026",
+                "anh": "https://picsum.photos/id/1/300/150"
+            },
+            {
+                "tenKhoaHoc": "IELTS Foundation",
+                "moTa": "Luyện kỹ năng IELTS nền tảng",
+                "hocPhi": "3.500.000 VNĐ",
+                "thoiGianKhaiGiang": "10/06/2026",
+                "anh": "https://picsum.photos/id/2/300/150"
+            },
+            {
+                "tenKhoaHoc": "TOEIC 4 Kỹ Năng",
+                "moTa": "Phát triển đầy đủ 4 kỹ năng",
+                "hocPhi": "4.000.000 VNĐ",
+                "thoiGianKhaiGiang": "15/06/2026",
+                "anh": "https://picsum.photos/id/3/300/150"
+            },
+            {
+                "tenKhoaHoc": "Tiếng Anh Cho Người Đi Làm",
+                "moTa": "Tiếng Anh giao tiếp công sở",
+                "hocPhi": "2.800.000 VNĐ",
+                "thoiGianKhaiGiang": "20/06/2026",
+                "anh": "https://picsum.photos/id/4/300/150"
+            },
+            {
+                "tenKhoaHoc": "Luyện Phát Âm Chuẩn",
+                "moTa": "Chuẩn hóa phát âm cùng giáo viên",
+                "hocPhi": "1.500.000 VNĐ",
+                "thoiGianKhaiGiang": "05/07/2026",
+                "anh": "https://picsum.photos/id/5/300/150"
+            },
+            {
+                "tenKhoaHoc": "Tiếng Anh Trẻ Em",
+                "moTa": "Học tiếng Anh qua trò chơi",
+                "hocPhi": "3.000.000 VNĐ",
+                "thoiGianKhaiGiang": "12/07/2026",
+                "anh": "https://picsum.photos/id/6/300/150"
+            }
+        ]`;
+
+        var courses = JSON.parse(jsonData);
+        var course_list = document.getElementById("course-list");
+        
+        // SỬ DỤNG VÒNG LẶP WHILE THEO CHUẨN ĐỀ BÀI
+        var i = 0;
+        while (i < courses.length) {
+            course_list.innerHTML += `
+                <div class="course">
+                    <img src="${courses[i].anh}" alt="${courses[i].tenKhoaHoc}">
+                    <h3>${courses[i].tenKhoaHoc}</h3>
+                    <p><strong>Mô tả: </strong>${courses[i].moTa}</p>
+                    <p><strong>Học phí: </strong>${courses[i].hocPhi}</p>
+                    <p><strong>Khai giảng: </strong>${courses[i].thoiGianKhaiGiang}</p>
+                </div>
+            `;
+            i++;
+        }
+    </script>
+</body>
+</html>
+
+
+/*Cau 3*/ For 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 3 - Chuỗi JSON (Vòng lặp FOR)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .courseList {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .course {
+            width: 280px;
+            border: 2px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: whitesmoke;
+        }
+
+        .course img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách khóa học Tiếng Anh (Vòng lặp FOR)</h1>
+    <div id="course-list" class="courseList"></div>
+
+    <script>
+        // Chuỗi JSON chứa 6 bài giới thiệu và có chèn ảnh
+        let jsonData = `[
+            {
+                "tenKhoaHoc": "Tiếng Anh Giao Tiếp",
+                "moTa": "Khóa học luyện giao tiếp cơ bản",
+                "hocPhi": "2.000.000 VNĐ",
+                "thoiGianKhaiGiang": "01/06/2026",
+                "anh": "https://picsum.photos/id/1/300/150"
+            },
+            {
+                "tenKhoaHoc": "IELTS Foundation",
+                "moTa": "Luyện kỹ năng IELTS nền tảng",
+                "hocPhi": "3.500.000 VNĐ",
+                "thoiGianKhaiGiang": "10/06/2026",
+                "anh": "https://picsum.photos/id/2/300/150"
+            },
+            {
+                "tenKhoaHoc": "TOEIC 4 Kỹ Năng",
+                "moTa": "Phát triển đầy đủ 4 kỹ năng",
+                "hocPhi": "4.000.000 VNĐ",
+                "thoiGianKhaiGiang": "15/06/2026",
+                "anh": "https://picsum.photos/id/3/300/150"
+            },
+            {
+                "tenKhoaHoc": "Tiếng Anh Cho Người Đi Làm",
+                "moTa": "Tiếng Anh giao tiếp công sở",
+                "hocPhi": "2.800.000 VNĐ",
+                "thoiGianKhaiGiang": "20/06/2026",
+                "anh": "https://picsum.photos/id/4/300/150"
+            },
+            {
+                "tenKhoaHoc": "Luyện Phát Âm Chuẩn",
+                "moTa": "Chuẩn hóa phát âm cùng giáo viên",
+                "hocPhi": "1.500.000 VNĐ",
+                "thoiGianKhaiGiang": "05/07/2026",
+                "anh": "https://picsum.photos/id/5/300/150"
+            },
+            {
+                "tenKhoaHoc": "Tiếng Anh Trẻ Em",
+                "moTa": "Học tiếng Anh qua trò chơi",
+                "hocPhi": "3.000.000 VNĐ",
+                "thoiGianKhaiGiang": "12/07/2026",
+                "anh": "https://picsum.photos/id/6/300/150"
+            }
+        ]`;
+
+        var courses = JSON.parse(jsonData);
+        var course_list = document.getElementById("course-list");
+        
+        // SỬ DỤNG VÒNG LẶP FOR
+        for (var i = 0; i < courses.length; i++) {
+            course_list.innerHTML += `
+                <div class="course">
+                    <img src="${courses[i].anh}" alt="${courses[i].tenKhoaHoc}">
+                    <h3>${courses[i].tenKhoaHoc}</h3>
+                    <p><strong>Mô tả: </strong>${courses[i].moTa}</p>
+                    <p><strong>Học phí: </strong>${courses[i].hocPhi}</p>
+                    <p><strong>Khai giảng: </strong>${courses[i].thoiGianKhaiGiang}</p>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
+
+CAU 4
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 4 - Form Đăng Ký</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        /* Responsive theo yêu cầu đề bài */
+        /* Điện thoại */
+        @media screen and (max-width: 414px) {
+            .container { max-width: 100%; }
+        }
+
+        /* Máy tính bảng */
+        @media screen and (min-width: 415px) and (max-width: 1024px) {
+            .container { max-width: 700px; }
+        }
+
+        /* Máy tính */
+        @media screen and (min-width: 1025px) {
+            .container { max-width: 500px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>ĐĂNG KÝ KHÓA HỌC</h2>
+        <form id="courseForm">
+            <div class="form-group">
+                <label>Họ và tên:</label>
+                <input type="text" id="fullname" placeholder="Nhập họ tên...">
+            </div>
+            <div class="form-group">
+                <label>Địa chỉ email:</label>
+                <input type="email" id="email" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label>Số điện thoại:</label>
+                <input type="tel" id="phone" placeholder="Nhập số điện thoại...">
+            </div>
+            <div class="form-group">
+                <label>Khóa học muốn đăng ký:</label>
+                <select id="course">
+                    <option value="">-- Chọn khóa học --</option>
+                    <option value="giaotiep"> Tiếng Anh Giao Tiếp </option>
+                    <option value="ielts"> IELTS Foundation </option>
+                    <option value="toeic"> TOEIC 4 Kỹ Năng </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Thời gian ưu tiên học:</label>
+                <input type="text" id="time" placeholder="Ví dụ: Sáng thứ 2, 4, 6">
+            </div>
+            <button type="submit"> Gửi đăng ký </button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("courseForm").addEventListener("submit", function(e){
+            e.preventDefault();
+
+            let fullname = document.getElementById("fullname").value.trim();
+            let email = document.getElementById("email").value.trim();
+            let phone = document.getElementById("phone").value.trim();
+            let course = document.getElementById("course").value;
+            let time = document.getElementById("time").value.trim();
+
+            if(fullname === "" || email === "" || phone === "" || course === "" || time === "") {
+                alert("Vui lòng nhập đầy đủ thông tin!");
+                return;
+            }
+
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if(!emailPattern.test(email)) {
+                alert("Email không hợp lệ!");
+                return;
+            }
+
+            let phonePattern = /^[0-9]{10}$/;
+            if(!phonePattern.test(phone)) {
+                alert("Số điện thoại phải gồm đúng 10 số!");
+                return;
+            }
+
+            alert("Đăng ký khóa học thành công!");
+        });
+    </script>
+</body>
+</html>
+
+
+cau 5
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 5 - Hoàn thiện Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* --- HEADER & NAV --- */
+        header {
+            background-color: #2f63ff; 
+            color: white;
+            display: flex;
+            padding: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo svg {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        .title-box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        h1 { font-size: 26px; margin: 0; }
+        .slogan { font-size: 16px; font-style: italic; margin-left: 2px; }
+
+        .nav-container {
+            display: flex;
+            background-color: #2fcbff;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .nav-item { padding: 14px 20px; cursor: pointer; }
+        .nav-item a { text-decoration: none; color: black; }
+        .nav-item:hover { background-color: #ffe700; }
+
+        /* --- QUẢNG CÁO (Câu 2) --- */
+        .advert {
+            width: 100%;
+            height: 200px;
+            border: 2px solid red;
+            background-color: #00e56b;
+            margin-top: 20px;
+            text-align: center;
+            line-height: 200px;
+            font-size: 24px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .advert:hover {
+            background-color: #ffe700;
+            border-color: #00b253;
+            font-style: italic;
+        }
+
+        /* --- DANH SÁCH KHÓA HỌC (Flexbox + Tái sử dụng .item) --- */
+        .section-title {
+            text-align: center;
+            margin: 30px 0 20px 0;
+            color: #333;
+        }
+
+        .course-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap; /* Bắt buộc để xuống hàng */
+            padding: 0 20px;
+            margin-bottom: 30px;
+        }
+
+        /* CSS item từ câu 2, chỉnh auto chiều cao để nhét vừa ảnh */
+        .item {
+            background-color: #ffe700;
+            width: 300px;
+            height: auto; 
+            border: 1px solid black;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .item img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border: 1px solid #333;
+        }
+
+        .item h3 { color: #2f63ff; margin-bottom: 8px; font-size: 18px; }
+        .item p { font-size: 14px; margin-bottom: 4px; }
+
+        /* --- FORM ĐĂNG KÝ (Câu 4) --- */
+        .form-wrapper {
+            margin: 20px auto 40px auto;
+            background-color: white;
+            padding: 25px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 100%;
+        }
+
+        .form-wrapper h2 { text-align: center; margin-bottom: 20px; color: #333; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input, select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        button { width: 100%; padding: 12px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; }
+        button:hover { background-color: #218838; }
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: #2f63ff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto; 
+            border-top: 3px solid #ffe700;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media screen and (max-width: 414px) {
+            .form-wrapper { max-width: 95%; }
+            .item { width: 100%; }
+        }
+        @media screen and (min-width: 415px) and (max-width: 1024px) {
+            .form-wrapper { max-width: 700px; }
+            .item { width: 45%; }
+        }
+        @media screen and (min-width: 1025px) {
+            .form-wrapper { max-width: 500px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="none"></circle>
+                <text x="50%" y="60%" text-anchor="middle" font-size="24px" font-weight="bold" fill="white">EL</text>
+            </svg>
+        </div>
+        <div class="title-box">
+            <h1>English Learning</h1>
+            <p class="slogan">Kiến tạo tương lai</p>
+        </div> 
+    </header>
+
+    <div class="nav-container">
+        <div class="nav-item"><a href="#">Trang chủ</a></div>
+        <div class="nav-item"><a href="#">Khóa học</a></div>
+        <div class="nav-item"><a href="#">Layout</a></div>
+        <div class="nav-item"><a href="#">Đăng ký</a></div>
+    </div>
+
+    <div class="advert">Khuyến mãi 50% khi đăng ký hôm nay!</div>
+
+    <h2 class="section-title">Danh Sách Khóa Học (6 Lớp)</h2>
+    <div id="course-list" class="course-container"></div>
+
+    <div class="form-wrapper">
+        <h2>ĐĂNG KÝ KHÓA HỌC</h2>
+        <form id="courseForm">
+            <div class="form-group">
+                <label>Họ và tên:</label>
+                <input type="text" id="fullname" placeholder="Nhập họ tên...">
+            </div>
+            <div class="form-group">
+                <label>Địa chỉ email:</label>
+                <input type="email" id="email" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label>Số điện thoại:</label>
+                <input type="tel" id="phone" placeholder="Nhập số điện thoại...">
+            </div>
+            <div class="form-group">
+                <label>Khóa học muốn đăng ký:</label>
+                <select id="course">
+                    <option value="">-- Chọn khóa học --</option>
+                    <option value="web"> Lập trình Web </option>
+                    <option value="network"> Quản trị mạng </option>
+                    <option value="data"> Khoa học dữ liệu </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Thời gian ưu tiên học:</label>
+                <input type="text" id="time" placeholder="Ví dụ: Sáng thứ 2, 4, 6">
+            </div>
+            <button type="submit"> Gửi đăng ký </button>
+        </form>
+    </div>
+
+    <footer>
+        <p><strong>Sinh viên thực hiện:</strong> Lê Phan Anh</p>
+        <p>© 2026 - Đề thi thiết kế Website</p>
+    </footer>
+
+    <script>
+        // 1. CHUỖI JSON 6 ĐỐI TƯỢNG VÀ CÓ ẢNH
+        var jsonData = `[
+            {
+                "tenKhoaHoc": "Tiếng Anh Giao Tiếp",
+                "moTa": "Khóa học giao tiếp cơ bản",
+                "hocPhi": "2.000.000 VNĐ",
+                "thoiGianKhaiGiang": "01/06/2026",
+                "anh": "https://picsum.photos/id/11/300/150"
+            },
+            {
+                "tenKhoaHoc": "IELTS Foundation",
+                "moTa": "Luyện kỹ năng nền tảng",
+                "hocPhi": "3.500.000 VNĐ",
+                "thoiGianKhaiGiang": "10/06/2026",
+                "anh": "https://picsum.photos/id/12/300/150"
+            },
+            {
+                "tenKhoaHoc": "TOEIC 4 Kỹ Năng",
+                "moTa": "Phát triển đầy đủ 4 kỹ năng",
+                "hocPhi": "4.000.000 VNĐ",
+                "thoiGianKhaiGiang": "15/06/2026",
+                "anh": "https://picsum.photos/id/13/300/150"
+            },
+            {
+                "tenKhoaHoc": "Tiếng Anh Cho DN",
+                "moTa": "Tiếng Anh giao tiếp công sở",
+                "hocPhi": "2.800.000 VNĐ",
+                "thoiGianKhaiGiang": "20/06/2026",
+                "anh": "https://picsum.photos/id/14/300/150"
+            },
+            {
+                "tenKhoaHoc": "Phát Âm & Phản Xạ",
+                "moTa": "Luyện nghe nói chuẩn tự nhiên",
+                "hocPhi": "1.800.000 VNĐ",
+                "thoiGianKhaiGiang": "02/07/2026",
+                "anh": "https://picsum.photos/id/15/300/150"
+            },
+            {
+                "tenKhoaHoc": "Luyện Viết Academic",
+                "moTa": "Tập trung tư duy viết luận",
+                "hocPhi": "3.200.000 VNĐ",
+                "thoiGianKhaiGiang": "08/07/2026",
+                "anh": "https://picsum.photos/id/16/300/150"
+            }
+        ]`;
+
+        var courses = JSON.parse(jsonData);
+        var courseList = document.getElementById("course-list");
+        
+        // 2. HIỂN THỊ BẰNG VÒNG LẶP WHILE
+        var i = 0;
+        while (i < courses.length) {
+            courseList.innerHTML += `
+                <div class="item">
+                    <img src="${courses[i].anh}" alt="${courses[i].tenKhoaHoc}">
+                    <h3>${courses[i].tenKhoaHoc}</h3>
+                    <p><strong>Mô tả:</strong> ${courses[i].moTa}</p>
+                    <p><strong>Học phí:</strong> ${courses[i].hocPhi}</p>
+                    <p><strong>Khai giảng:</strong> ${courses[i].thoiGianKhaiGiang}</p>
+                </div>
+            `;
+            i++;
+        }
+
+        // 3. VALIDATE FORM
+        document.getElementById("courseForm").addEventListener("submit", function(e){
+            e.preventDefault();
+
+            var fullname = document.getElementById("fullname").value.trim();
+            var email = document.getElementById("email").value.trim();
+            var phone = document.getElementById("phone").value.trim();
+            var course = document.getElementById("course").value;
+            var time = document.getElementById("time").value.trim();
+
+            if(fullname === "" || email === "" || phone === "" || course === "" || time === "") {
+                alert("Vui lòng nhập đầy đủ thông tin!");
+                return;
+            }
+
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if(!emailPattern.test(email)) {
+                alert("Email không hợp lệ!");
+                return;
+            }
+
+            var phonePattern = /^[0-9]{10}$/;
+            if(!phonePattern.test(phone)) {
+                alert("Số điện thoại phải gồm 10 số!");
+                return;
+            }
+
+            alert("Đăng ký khóa học thành công!");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 3 - Chuỗi JSON (Vòng lặp FOR)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .courseList {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .course {
+            width: 280px;
+            border: 2px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: whitesmoke;
+        }
+
+        .course img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách khóa học Tiếng Anh (Vòng lặp FOR)</h1>
+    <div id="course-list" class="courseList"></div>
+
+    <script>
+        // Chuỗi JSON chứa 6 bài giới thiệu và có chèn ảnh
+        let jsonData = `[
+            {
+                "tenKhoaHoc": "Tiếng Anh Giao Tiếp",
+                "moTa": "Khóa học luyện giao tiếp cơ bản",
+                "hocPhi": "2.000.000 VNĐ",
+                "thoiGianKhaiGiang": "01/06/2026",
+                "anh": "https://picsum.photos/id/1/300/150"
+            },
+            {
+                "tenKhoaHoc": "IELTS Foundation",
+                "moTa": "Luyện kỹ năng IELTS nền tảng",
+                "hocPhi": "3.500.000 VNĐ",
+                "thoiGianKhaiGiang": "10/06/2026",
+                "anh": "https://picsum.photos/id/2/300/150"
+            },
+            {
+                "tenKhoaHoc": "TOEIC 4 Kỹ Năng",
+                "moTa": "Phát triển đầy đủ 4 kỹ năng",
+                "hocPhi": "4.000.000 VNĐ",
+                "thoiGianKhaiGiang": "15/06/2026",
+                "anh": "https://picsum.photos/id/3/300/150"
+            },
+            {
+                "tenKhoaHoc": "Tiếng Anh Cho Người Đi Làm",
+                "moTa": "Tiếng Anh giao tiếp công sở",
+                "hocPhi": "2.800.000 VNĐ",
+                "thoiGianKhaiGiang": "20/06/2026",
+                "anh": "https://picsum.photos/id/4/300/150"
+            },
+            {
+                "tenKhoaHoc": "Luyện Phát Âm Chuẩn",
+                "moTa": "Chuẩn hóa phát âm cùng giáo viên",
+                "hocPhi": "1.500.000 VNĐ",
+                "thoiGianKhaiGiang": "05/07/2026",
+                "anh": "https://picsum.photos/id/5/300/150"
+            },
+            {
+                "tenKhoaHoc": "Tiếng Anh Trẻ Em",
+                "moTa": "Học tiếng Anh qua trò chơi",
+                "hocPhi": "3.000.000 VNĐ",
+                "thoiGianKhaiGiang": "12/07/2026",
+                "anh": "https://picsum.photos/id/6/300/150"
+            }
+        ]`;
+
+        var courses = JSON.parse(jsonData);
+        var course_list = document.getElementById("course-list");
+        
+        // SỬ DỤNG VÒNG LẶP FOR
+        for (var i = 0; i < courses.length; i++) {
+            course_list.innerHTML += `
+                <div class="course">
+                    <img src="${courses[i].anh}" alt="${courses[i].tenKhoaHoc}">
+                    <h3>${courses[i].tenKhoaHoc}</h3>
+                    <p><strong>Mô tả: </strong>${courses[i].moTa}</p>
+                    <p><strong>Học phí: </strong>${courses[i].hocPhi}</p>
+                    <p><strong>Khai giảng: </strong>${courses[i].thoiGianKhaiGiang}</p>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
