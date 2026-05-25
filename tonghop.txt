@@ -576,7 +576,7 @@ CAU 4
 
 
 cau 5
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -724,8 +724,20 @@ cau 5
         /* --- RESPONSIVE --- */
         @media screen and (max-width: 414px) {
             .form-wrapper { max-width: 95%; }
-            .item { width: 100%; }
+            
+                .course-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between; /* Giúp căn đều 2 cột */
+                padding: 0 10px;
+            }
+
+            .item {        
+                width: calc(50% - 10px); 
+                margin-bottom: 10px;
+            }
         }
+        
         @media screen and (min-width: 415px) and (max-width: 1024px) {
             .form-wrapper { max-width: 700px; }
             .item { width: 45%; }
@@ -795,7 +807,7 @@ cau 5
     </div>
 
     <footer>
-        <p><strong>Sinh viên thực hiện:</strong> Lê Phan Anh</p>
+        <p><strong>Sinh viên thực hiện:</strong> Phạm Thị Thu Nga - 11236164</p>
         <p>© 2026 - Đề thi thiết kế Website</p>
     </footer>
 
